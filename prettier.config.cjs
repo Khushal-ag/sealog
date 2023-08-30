@@ -10,12 +10,12 @@ module.exports = {
     "<THIRD_PARTY_MODULES>",
     "",
     "^types$",
-    "^@/types/?(.*)$",
-    "^@/store/?(.*)$",
-    "^@/config/(.*)$",
-    "^@/lib/(.*)$",
-    "^@/hooks/?(.*)$",
-    "^@/components/(.*)$",
+    "^@/features/(.*)$",
+    "^@/pages/(.*)$",
+    "^@/utils/(.*)$",
+    "^@/ui/(.*)$",
+    "^@/services/(.*)$",
+    "^@/hooks/(.*)$",
     "^@/styles/(.*)$",
     "^[./]",
   ],
@@ -27,3 +27,4 @@ module.exports = {
   importOrderCombineTypeAndValueImports: true,
   plugins: ["@ianvs/prettier-plugin-sort-imports"],
 };
+
