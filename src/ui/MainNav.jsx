@@ -87,12 +87,6 @@ export default function MainNav() {
             <span>Settings</span>
           </StyledNavLink>
         </li>
-        <li>
-          <StyledNavLink to="/bookings">
-            <HiOutlineCalendarDays />
-            <span>Bookings</span>
-          </StyledNavLink>
-        </li>
       </NavList>
     </nav>
   );
