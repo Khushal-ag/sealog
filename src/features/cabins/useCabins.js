@@ -6,7 +6,7 @@ export function useCabins() {
   const {
     isLoading,
     data: cabins,
-    errors,
+    error: errors,
   } = useQuery({
     queryKey: ["cabins"],
     queryFn: getCabins,

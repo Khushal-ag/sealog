@@ -8,7 +8,7 @@ import { useUpdateSetting } from "./useUpdateSetting";
 function UpdateSettingsForm() {
   const {
     isLoading,
-    setting: {
+    settings: {
       minBookingLength,
       maxBookingLength,
       maxGuestPerBooking,
@@ -68,4 +68,3 @@ function UpdateSettingsForm() {
 }
 
 export default UpdateSettingsForm;
-
