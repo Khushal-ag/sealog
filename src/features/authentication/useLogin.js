@@ -9,11 +9,13 @@ export function useLogin() {
   const navigate = useNavigate();
   const { mutate: login, isLoading } = useMutation({
     mutationFn: ({ email, password }) => loginApi({ email, password }),
+
     onSuccess: (user) => {
       queryClient.setQueryData(["user"], user.user);
       toast.success("Login successful");
       navigate("/dashboard", { replace: true });
     },
+
     onError: () => {
       toast.error("Provided credentials are invalid");
     },

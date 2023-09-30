@@ -22,9 +22,12 @@ function UpdateSettingsForm() {
 
   function handleUpdate(e, feild) {
     const { value } = e.target;
+
     if (!value) return;
+
     updateSetting({ [feild]: value });
   }
+
   return (
     <Form>
       <FormRow label="Minimum nights/booking">
@@ -68,3 +71,4 @@ function UpdateSettingsForm() {
 }
 
 export default UpdateSettingsForm;
+

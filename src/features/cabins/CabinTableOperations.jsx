@@ -39,7 +39,6 @@ export default function CabinTableoperations() {
             value: "maxCapacity-desc",
             label: "Sort by capacity (high to low)",
           },
-          
         ]}
       />
     </TableOperations>

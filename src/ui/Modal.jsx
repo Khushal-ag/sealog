@@ -92,3 +92,4 @@ function Window({ children, name }) {
 
 Modal.Open = Open;
 Modal.Window = Window;
+

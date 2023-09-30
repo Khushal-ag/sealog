@@ -7,12 +7,14 @@ import { PAGE_SIZE } from "../../utils/constants";
 export function useBookings() {
   const queryClient = useQueryClient();
   const [searchParams] = useSearchParams();
+
   // Filter
   const filterValue = searchParams.get("status");
   const filter =
     !filterValue || filterValue === "all"
       ? null
       : { feild: "status", value: filterValue };
+
   // Sort
   const sortByRaw = searchParams.get("sortBy") || "startDate-desc";
   const [field, direction] = sortByRaw.split("-");
@@ -24,10 +26,13 @@ export function useBookings() {
     error,
   } = useQuery({
     queryKey: ["bookings", filter, sortBy, page],
+
     queryFn: () => getBookings({ filter, sortBy, page }),
   });
+
   //Pre Fetching
   const pageCount = Math.ceil(count / PAGE_SIZE);
+
   if (page < pageCount)
     queryClient.prefetchQuery(
       {
@@ -36,6 +41,7 @@ export function useBookings() {
       },
       { staleTime: 1000 * 60 * 60 }
     );
+
   if (page > 1)
     queryClient.prefetchQuery(
       {
@@ -47,3 +53,4 @@ export function useBookings() {
 
   return { isLoading, bookings, error, count };
 }
+

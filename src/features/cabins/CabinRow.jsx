@@ -118,3 +118,4 @@ export default function CabinRow({ cabin }) {
     </Table.Row>
   );
 }
+

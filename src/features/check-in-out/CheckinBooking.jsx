@@ -30,8 +30,10 @@ function CheckinBooking() {
   const { settings, isLoading: isLoadingSettings } = useSetting();
 
   useEffect(() => setConfirmPaid(booking?.isPaid ?? false), [booking]);
+
   const moveBack = useMoveBack();
   const { checkin, isCheckingIn } = useCheckin();
+
   if (isLoading || isLoadingSettings) return <Spinner />;
 
   const {
@@ -48,6 +50,7 @@ function CheckinBooking() {
 
   function handleCheckin() {
     if (!confirmPaid) return;
+
     if (addBreakfast) {
       checkin({
         bookingId,
@@ -114,3 +117,4 @@ function CheckinBooking() {
 }
 
 export default CheckinBooking;
+

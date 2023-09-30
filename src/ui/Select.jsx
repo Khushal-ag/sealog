@@ -25,3 +25,4 @@ export default function Select({ options, ...props }) {
     </StyledSelect>
   );
 }
+

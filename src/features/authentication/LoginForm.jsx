@@ -14,7 +14,9 @@ function LoginForm() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    
     if (!email || !password) return;
+    
     login(
       { email, password },
       {
@@ -32,7 +34,6 @@ function LoginForm() {
         <Input
           type="email"
           id="email"
-          // This makes this form better for password managers
           autoComplete="username"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -59,3 +60,4 @@ function LoginForm() {
 }
 
 export default LoginForm;
+

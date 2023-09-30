@@ -9,7 +9,9 @@ export function useSetting() {
     data: settings,
   } = useQuery({
     queryKey: "settings",
+
     queryFn: getSettings,
   });
   return { isLoading, error, settings };
 }
+

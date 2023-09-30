@@ -8,8 +8,11 @@ import { useBookings } from "./useBookings";
 
 function BookingTable() {
   const { isLoading, bookings, errors, count } = useBookings();
+
   if (isLoading) return <Spinner />;
+
   if (errors) return <p>Something went wrong...</p>;
+
   if (!bookings.length) return <Empty resourceName="bookings" />;
 
   return (

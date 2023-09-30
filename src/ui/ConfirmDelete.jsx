@@ -47,3 +47,4 @@ function ConfirmDelete({ resourceName, onConfirm, disabled, onCloseModal }) {
 }
 
 export default ConfirmDelete;
+

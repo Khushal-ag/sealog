@@ -8,7 +8,9 @@ export default function useOutsideClick(handler, listenCapturing = true) {
       function handleClick(e) {
         if (ref.current && !ref.current.contains(e.target)) handler();
       }
+
       document.addEventListener("click", handleClick, listenCapturing);
+
       return () =>
         document.removeEventListener("click", handleClick, listenCapturing);
     },
@@ -16,3 +18,4 @@ export default function useOutsideClick(handler, listenCapturing = true) {
   );
   return ref;
 }
+

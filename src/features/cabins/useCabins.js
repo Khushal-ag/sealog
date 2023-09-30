@@ -13,3 +13,4 @@ export function useCabins() {
   });
   return { isLoading, cabins, errors };
 }
+
