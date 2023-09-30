@@ -13,6 +13,7 @@ import { useDeleteCabin } from "./useDeleteCabin";
 const Img = styled.img`
   display: block;
   width: 6.4rem;
+  min-width: 4rem;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: center;
@@ -64,8 +65,11 @@ export default function CabinRow({ cabin }) {
   return (
     <Table.Row>
       <Img src={image} alt={name} />
+
       <Cabin>{name}</Cabin>
+
       <div>{maxCapacity}</div>
+
       <Price>{formatCurrency(regularPrice)}</Price>
       {discount ? (
         <Discount>{formatCurrency(discount)}</Discount>
