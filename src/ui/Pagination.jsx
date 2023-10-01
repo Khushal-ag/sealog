@@ -68,10 +68,18 @@ export default function Pagination({ count }) {
   const totalPages = Math.ceil(count / PAGE_SIZE);
   function nextPage() {
     const next = currentPage === totalPages ? currentPage : currentPage + 1;
+    if (searchParams.get("status")) {
+      setSearchParams({ page: next, status: searchParams.get("status") });
+      return;
+    }
     setSearchParams({ page: next });
   }
   function prevPage() {
     const prev = currentPage === 1 ? currentPage : currentPage - 1;
+    if (searchParams.get("status")) {
+      setSearchParams({ page: prev, status: searchParams.get("status") });
+      return;
+    }
     setSearchParams({ page: prev });
   }
   if (totalPages <= 1) return null;
