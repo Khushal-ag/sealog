@@ -85,7 +85,7 @@ function BookingDetail() {
             />
           </Modal.Window>
         </Modal>
-        <Button variation=" econdary" onClick={moveBack}>
+        <Button variation="secondary" onClick={moveBack}>
           Back
         </Button>
       </ButtonGroup>
@@ -94,4 +94,3 @@ function BookingDetail() {
 }
 
 export default BookingDetail;
-
