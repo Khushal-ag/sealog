@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.46.1
     version: 2.46.1
   '@tanstack/react-query':
-    specifier: ^5.60.5
-    version: 5.60.5(react@18.3.1)
+    specifier: ^5.61.3
+    version: 5.61.3(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -914,16 +914,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.60.5:
-    resolution: {integrity: sha512-jiS1aC3XI3BJp83ZiTuDLerTmn9P3U95r6p+6/SNauLJaYxfIC4dMuWygwnBHIZxjn2zJqEpj3nysmPieoxfPQ==}
+  /@tanstack/query-core@5.60.6:
+    resolution: {integrity: sha512-tI+k0KyCo1EBJ54vxK1kY24LWj673ujTydCZmzEZKAew4NqZzTaVQJEuaG1qKj2M03kUHN46rchLRd+TxVq/zQ==}
     dev: false
 
-  /@tanstack/react-query@5.60.5(react@18.3.1):
-    resolution: {integrity: sha512-M77bOsPwj1wYE56gk7iJvxGAr4IC12NWdIDhT+Eo8ldkWRHMvIR8I/rufIvT1OXoV/bl7EECwuRuMlxxWtvW2Q==}
+  /@tanstack/react-query@5.61.3(react@18.3.1):
+    resolution: {integrity: sha512-c3Oz9KaCBapGkRewu7AJLhxE9BVqpMcHsd3KtFxSd7FSCu2qGwqfIN37zbSGoyk6Ix9LGZBNHQDPI6GpWABnmA==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.60.5
+      '@tanstack/query-core': 5.60.6
       react: 18.3.1
     dev: false
 
