@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@supabase/supabase-js':
-    specifier: ^2.47.16
-    version: 2.47.16
+    specifier: ^2.48.1
+    version: 2.48.1
   '@tanstack/react-query':
     specifier: ^5.64.2
     version: 5.64.2(react@18.3.1)
@@ -54,7 +54,7 @@ devDependencies:
     version: 18.3.5(@types/react@18.3.18)
   '@vitejs/plugin-react':
     specifier: ^4.3.4
-    version: 4.3.4(vite@5.4.11)
+    version: 4.3.4(vite@5.4.14)
   eslint:
     specifier: ^8.57.1
     version: 8.57.1
@@ -74,11 +74,11 @@ devDependencies:
     specifier: ^3.4.2
     version: 3.4.2
   vite:
-    specifier: ^5.4.11
-    version: 5.4.11
+    specifier: ^5.4.14
+    version: 5.4.14
   vite-plugin-eslint:
     specifier: ^1.8.1
-    version: 1.8.1(eslint@8.57.1)(vite@5.4.11)
+    version: 1.8.1(eslint@8.57.1)(vite@5.4.14)
   vite-plugin-prettier:
     specifier: ^0.0.6
     version: 0.0.6
@@ -786,8 +786,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /@supabase/postgrest-js@1.17.11:
-    resolution: {integrity: sha512-AOqqgQEhLVqzOMmA8Q0bxQFMfbozbjjQ1Tt4kprkstIKdRl4yZRaMdoVxFkCpU8ivmAe2xNfAVkNK+l16a9P0A==}
+  /@supabase/postgrest-js@1.18.1:
+    resolution: {integrity: sha512-dWDnoC0MoDHKhaEOrsEKTadWQcBNknZVQcSgNE/Q2wXh05mhCL1ut/jthRUrSbYcqIw/CEjhaeIPp7dLarT0bg==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
     dev: false
@@ -810,13 +810,13 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/supabase-js@2.47.16:
-    resolution: {integrity: sha512-FnoV0miLnYUL8ZTS94tSIyn+ogCwh5DB5f1fj1n4wHGNAqJSKFb8OQzLVlRFAH7cB9TKQ5eon3/n2lXUWY7GfA==}
+  /@supabase/supabase-js@2.48.1:
+    resolution: {integrity: sha512-VMD+CYk/KxfwGbI4fqwSUVA7CLr1izXpqfFerhnYPSi6LEKD8GoR4kuO5Cc8a+N43LnfSQwLJu4kVm2e4etEmA==}
     dependencies:
       '@supabase/auth-js': 2.67.3
       '@supabase/functions-js': 2.4.4
       '@supabase/node-fetch': 2.6.15
-      '@supabase/postgrest-js': 1.17.11
+      '@supabase/postgrest-js': 1.18.1
       '@supabase/realtime-js': 2.11.2
       '@supabase/storage-js': 2.7.1
     transitivePeerDependencies:
@@ -964,7 +964,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.3.4(vite@5.4.11):
+  /@vitejs/plugin-react@4.3.4(vite@5.4.14):
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -975,7 +975,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.11
+      vite: 5.4.14
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3136,7 +3136,7 @@ packages:
       d3-timer: 3.0.1
     dev: false
 
-  /vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@5.4.11):
+  /vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@5.4.14):
     resolution: {integrity: sha512-PqdMf3Y2fLO9FsNPmMX+//2BF5SF8nEWspZdgl4kSt7UvHDRHVVfHvxsD7ULYzZrJDGRxR81Nq7TOFgwMnUang==}
     peerDependencies:
       eslint: '>=7'
@@ -3146,7 +3146,7 @@ packages:
       '@types/eslint': 8.44.2
       eslint: 8.57.1
       rollup: 2.79.1
-      vite: 5.4.11
+      vite: 5.4.14
     dev: true
 
   /vite-plugin-prettier@0.0.6:
@@ -3157,8 +3157,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /vite@5.4.11:
-    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
+  /vite@5.4.14:
+    resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
