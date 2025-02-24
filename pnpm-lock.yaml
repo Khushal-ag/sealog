@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.48.1
     version: 2.48.1
   '@tanstack/react-query':
-    specifier: ^5.66.3
-    version: 5.66.3(react@18.3.1)
+    specifier: ^5.66.9
+    version: 5.66.9(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -30,8 +30,8 @@ dependencies:
     specifier: ^2.5.2
     version: 2.5.2(react-dom@18.3.1)(react@18.3.1)
   react-icons:
-    specifier: ^5.4.0
-    version: 5.4.0(react@18.3.1)
+    specifier: ^5.5.0
+    version: 5.5.0(react@18.3.1)
   react-router-dom:
     specifier: ^6.29.0
     version: 6.29.0(react-dom@18.3.1)(react@18.3.1)
@@ -45,7 +45,7 @@ dependencies:
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
     specifier: ^4.4.1
-    version: 4.4.1(prettier@3.5.1)
+    version: 4.4.1(prettier@3.5.2)
   '@types/react':
     specifier: ^18.3.18
     version: 18.3.18
@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^0.4.19
     version: 0.4.19(eslint@8.57.1)
   prettier:
-    specifier: ^3.5.1
-    version: 3.5.1
+    specifier: ^3.5.2
+    version: 3.5.2
   vite:
     specifier: ^5.4.14
     version: 5.4.14
@@ -556,7 +556,7 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.1):
+  /@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.2):
     resolution: {integrity: sha512-F0/Hrcfpy8WuxlQyAWJTEren/uxKhYonOGY4OyWmwRdeTvkh9mMSCxowZLjNkhwi/2ipqCgtXwwOk7tW0mWXkA==}
     peerDependencies:
       '@vue/compiler-sfc': 2.7.x || 3.x
@@ -569,7 +569,7 @@ packages:
       '@babel/parser': 7.26.2
       '@babel/traverse': 7.25.9
       '@babel/types': 7.26.0
-      prettier: 3.5.1
+      prettier: 3.5.2
       semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
@@ -824,16 +824,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.66.3:
-    resolution: {integrity: sha512-+2iDxH7UFdtwcry766aJszGmbByQDIzTltJ3oQAZF9bhCxHCIN3yDwHa6qDCZxcpMGvUphCRx/RYJvLbM8mucQ==}
+  /@tanstack/query-core@5.66.4:
+    resolution: {integrity: sha512-skM/gzNX4shPkqmdTCSoHtJAPMTtmIJNS0hE+xwTTUVYwezArCT34NMermABmBVUg5Ls5aiUXEDXfqwR1oVkcA==}
     dev: false
 
-  /@tanstack/react-query@5.66.3(react@18.3.1):
-    resolution: {integrity: sha512-sWMvxZ5VugPDgD1CzP7f0s9yFvjcXP3FXO5IVV2ndXlYqUCwykU8U69Kk05Qn5UvGRqB/gtj4J7vcTC6vtLHtQ==}
+  /@tanstack/react-query@5.66.9(react@18.3.1):
+    resolution: {integrity: sha512-NRI02PHJsP5y2gAuWKP+awamTIBFBSKMnO6UVzi03GTclmHHHInH5UzVgzi5tpu4+FmGfsdT7Umqegobtsp23A==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.66.3
+      '@tanstack/query-core': 5.66.4
       react: 18.3.1
     dev: false
 
@@ -2513,8 +2513,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.5.1:
-    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
+  /prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -2576,8 +2576,8 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /react-icons@5.4.0(react@18.3.1):
-    resolution: {integrity: sha512-7eltJxgVt7X64oHh6wSWNwwbKTCtMfK35hcjvJS0yxEAhPM8oUKdS3+kqaW1vicIltw+kR2unHaa12S9pPALoQ==}
+  /react-icons@5.5.0(react@18.3.1):
+    resolution: {integrity: sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==}
     peerDependencies:
       react: '*'
     dependencies:
