@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.49.1
     version: 2.49.1
   '@tanstack/react-query':
-    specifier: ^5.68.0
-    version: 5.68.0(react@18.3.1)
+    specifier: ^5.69.0
+    version: 5.69.0(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -39,19 +39,19 @@ dependencies:
     specifier: ^2.15.1
     version: 2.15.1(react-dom@18.3.1)(react@18.3.1)
   styled-components:
-    specifier: ^6.1.15
-    version: 6.1.15(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^6.1.16
+    version: 6.1.16(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
     specifier: ^4.4.1
     version: 4.4.1(prettier@3.5.3)
   '@types/react':
-    specifier: ^18.3.18
-    version: 18.3.18
+    specifier: ^18.3.19
+    version: 18.3.19
   '@types/react-dom':
     specifier: ^18.3.5
-    version: 18.3.5(@types/react@18.3.18)
+    version: 18.3.5(@types/react@18.3.19)
   '@vitejs/plugin-react':
     specifier: ^4.3.4
     version: 4.3.4(vite@5.4.14)
@@ -824,16 +824,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.68.0:
-    resolution: {integrity: sha512-r8rFYYo8/sY/LNaOqX84h12w7EQev4abFXDWy4UoDVUJzJ5d9Fbmb8ayTi7ScG+V0ap44SF3vNs/45mkzDGyGw==}
+  /@tanstack/query-core@5.69.0:
+    resolution: {integrity: sha512-Kn410jq6vs1P8Nm+ZsRj9H+U3C0kjuEkYLxbiCyn3MDEiYor1j2DGVULqAz62SLZtUZ/e9Xt6xMXiJ3NJ65WyQ==}
     dev: false
 
-  /@tanstack/react-query@5.68.0(react@18.3.1):
-    resolution: {integrity: sha512-mMOdGDKlwTP/WV72QqSNf4PAMeoBp/DqBHQ222wBfb51Looi8QUqnCnb9O98ZgvNISmy6fzxRGBJdZ+9IBvX2Q==}
+  /@tanstack/react-query@5.69.0(react@18.3.1):
+    resolution: {integrity: sha512-Ift3IUNQqTcaFa1AiIQ7WCb/PPy8aexZdq9pZWLXhfLcLxH0+PZqJ2xFImxCpdDZrFRZhLJrh76geevS5xjRhA==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.68.0
+      '@tanstack/query-core': 5.69.0
       react: 18.3.1
     dev: false
 
@@ -935,16 +935,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.5(@types/react@18.3.18):
+  /@types/react-dom@18.3.5(@types/react@18.3.19):
     resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
     dev: true
 
-  /@types/react@18.3.18:
-    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
+  /@types/react@18.3.19:
+    resolution: {integrity: sha512-fcdJqaHOMDbiAwJnXv6XCzX0jDW77yI3tJqYh1Byn8EL5/S628WRx9b/y3DnNe55zTukUQKrfYxiZls2dHcUMw==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.3
@@ -2468,7 +2468,6 @@ packages:
 
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
-    dev: false
 
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -2985,8 +2984,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@6.1.15(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-PpOTEztW87Ua2xbmLa7yssjNyUF9vE7wdldRfn1I2E6RTkqknkBYpj771OxM/xrvRGinLy2oysa7GOd7NcZZIA==}
+  /styled-components@6.1.16(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-KpWB6ORAWGmbWM10cDJfEV6sXc/uVkkkQV3SLwTNQ/E/PqWgNHIoMSLh1Lnk2FkB9+JHK7uuMq1i+9ArxDD7iQ==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
@@ -3119,7 +3118,7 @@ packages:
     dependencies:
       browserslist: 4.24.0
       escalade: 3.2.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
     dev: true
 
   /uri-js@4.4.1:
