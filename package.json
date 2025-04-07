@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
-    "@tanstack/react-query": "^5.71.0",
+    "@tanstack/react-query": "^5.71.10",
     "date-fns": "^2.30.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,21 +20,21 @@
     "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.0",
-    "recharts": "^2.15.1",
-    "styled-components": "^6.1.16"
+    "recharts": "^2.15.2",
+    "styled-components": "^6.1.17"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@types/react": "^18.3.20",
-    "@types/react-dom": "^18.3.5",
+    "@types/react-dom": "^18.3.6",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.19",
     "prettier": "^3.5.3",
-    "vite": "^5.4.15",
+    "vite": "^5.4.17",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-prettier": "^0.0.6"
   }
