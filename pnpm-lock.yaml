@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.49.4
     version: 2.49.4
   '@tanstack/react-query':
-    specifier: ^5.74.7
-    version: 5.74.7(react@18.3.1)
+    specifier: ^5.75.2
+    version: 5.75.2(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.1.2
     version: 4.1.2(react@18.3.1)
   react-hook-form:
-    specifier: ^7.56.1
-    version: 7.56.1(react@18.3.1)
+    specifier: ^7.56.2
+    version: 7.56.2(react@18.3.1)
   react-hot-toast:
     specifier: ^2.5.2
     version: 2.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -50,11 +50,11 @@ devDependencies:
     specifier: ^18.3.20
     version: 18.3.20
   '@types/react-dom':
-    specifier: ^18.3.6
-    version: 18.3.6(@types/react@18.3.20)
+    specifier: ^18.3.7
+    version: 18.3.7(@types/react@18.3.20)
   '@vitejs/plugin-react':
     specifier: ^4.4.1
-    version: 4.4.1(vite@5.4.18)
+    version: 4.4.1(vite@5.4.19)
   eslint:
     specifier: ^8.57.1
     version: 8.57.1
@@ -74,11 +74,11 @@ devDependencies:
     specifier: ^3.5.3
     version: 3.5.3
   vite:
-    specifier: ^5.4.18
-    version: 5.4.18
+    specifier: ^5.4.19
+    version: 5.4.19
   vite-plugin-eslint:
     specifier: ^1.8.1
-    version: 1.8.1(eslint@8.57.1)(vite@5.4.18)
+    version: 1.8.1(eslint@8.57.1)(vite@5.4.19)
   vite-plugin-prettier:
     specifier: ^0.0.6
     version: 0.0.6
@@ -875,16 +875,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.74.7:
-    resolution: {integrity: sha512-X3StkN/Y6KGHndTjJf8H8th7AX4bKfbRpiVhVqevf0QWlxl6DhyJ0TYG3R0LARa/+xqDwzU9mA4pbJxzPCI29A==}
+  /@tanstack/query-core@5.75.0:
+    resolution: {integrity: sha512-rk8KQuCdhoRkzjRVF3QxLgAfFUyS0k7+GCQjlGEpEGco+qazJ0eMH6aO1DjDjibH7/ik383nnztua3BG+lOnwg==}
     dev: false
 
-  /@tanstack/react-query@5.74.7(react@18.3.1):
-    resolution: {integrity: sha512-u4o/RIWnnrq26orGZu2NDPwmVof1vtAiiV6KYUXd49GuK+8HX+gyxoAYqIaZogvCE1cqOuZAhQKcrKGYGkrLxg==}
+  /@tanstack/react-query@5.75.2(react@18.3.1):
+    resolution: {integrity: sha512-8F8VOsWUfSkCFoi62O9HSZT9jDgg28Ln8Z2dYKfRo/O2A0sgvr0uxTuNoon3PPXoDuHofv5V3elBI1M2Gh1MPg==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.74.7
+      '@tanstack/query-core': 5.75.0
       react: 18.3.1
     dev: false
 
@@ -986,8 +986,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.6(@types/react@18.3.20):
-    resolution: {integrity: sha512-nf22//wEbKXusP6E9pfOCDwFdHAX4u172eaJI4YkDRQEZiorm6KfYnSC2SWLDMVWUOWPERmJnN0ujeAfTBLvrw==}
+  /@types/react-dom@18.3.7(@types/react@18.3.20):
+    resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
@@ -1015,7 +1015,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.4.1(vite@5.4.18):
+  /@vitejs/plugin-react@4.4.1(vite@5.4.19):
     resolution: {integrity: sha512-IpEm5ZmeXAP/osiBXVVP5KjFMzbWOonMs0NaQQl+xYnUAcq4oHUBsF2+p4MgKWG4YMmFYJU8A6sxRPuowllm6w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1026,7 +1026,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 5.4.18
+      vite: 5.4.19
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2638,8 +2638,8 @@ packages:
       react: 18.3.1
     dev: false
 
-  /react-hook-form@7.56.1(react@18.3.1):
-    resolution: {integrity: sha512-qWAVokhSpshhcEuQDSANHx3jiAEFzu2HAaaQIzi/r9FNPm1ioAvuJSD4EuZzWd7Al7nTRKcKPnBKO7sRn+zavQ==}
+  /react-hook-form@7.56.2(react@18.3.1):
+    resolution: {integrity: sha512-vpfuHuQMF/L6GpuQ4c3ZDo+pRYxIi40gQqsCmmfUBwm+oqvBhKhwghCuj2o00YCgSfU6bR9KC/xnQGWm3Gr08A==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3225,7 +3225,7 @@ packages:
       d3-timer: 3.0.1
     dev: false
 
-  /vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@5.4.18):
+  /vite-plugin-eslint@1.8.1(eslint@8.57.1)(vite@5.4.19):
     resolution: {integrity: sha512-PqdMf3Y2fLO9FsNPmMX+//2BF5SF8nEWspZdgl4kSt7UvHDRHVVfHvxsD7ULYzZrJDGRxR81Nq7TOFgwMnUang==}
     peerDependencies:
       eslint: '>=7'
@@ -3235,7 +3235,7 @@ packages:
       '@types/eslint': 8.44.2
       eslint: 8.57.1
       rollup: 2.79.1
-      vite: 5.4.18
+      vite: 5.4.19
     dev: true
 
   /vite-plugin-prettier@0.0.6:
@@ -3246,8 +3246,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /vite@5.4.18:
-    resolution: {integrity: sha512-1oDcnEp3lVyHCuQ2YFelM4Alm2o91xNoMncRm1U7S+JdYfYOvbiGZ3/CxGttrOu2M/KcGz7cRC2DoNUA6urmMA==}
+  /vite@5.4.19:
+    resolution: {integrity: sha512-qO3aKv3HoQC8QKiNSTuUM1l9o/XX3+c+VTgLHbJWHZGeTPVAg2XwazI9UWzoxjIJCGCV2zU60uqMzjeLZuULqA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
