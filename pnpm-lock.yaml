@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.49.4
     version: 2.49.4
   '@tanstack/react-query':
-    specifier: ^5.75.2
-    version: 5.75.2(react@18.3.1)
+    specifier: ^5.75.7
+    version: 5.75.7(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.1.2
     version: 4.1.2(react@18.3.1)
   react-hook-form:
-    specifier: ^7.56.2
-    version: 7.56.2(react@18.3.1)
+    specifier: ^7.56.3
+    version: 7.56.3(react@18.3.1)
   react-hot-toast:
     specifier: ^2.5.2
     version: 2.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -39,19 +39,19 @@ dependencies:
     specifier: ^2.15.3
     version: 2.15.3(react-dom@18.3.1)(react@18.3.1)
   styled-components:
-    specifier: ^6.1.17
-    version: 6.1.17(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^6.1.18
+    version: 6.1.18(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
     specifier: ^4.4.1
     version: 4.4.1(prettier@3.5.3)
   '@types/react':
-    specifier: ^18.3.20
-    version: 18.3.20
+    specifier: ^18.3.21
+    version: 18.3.21
   '@types/react-dom':
     specifier: ^18.3.7
-    version: 18.3.7(@types/react@18.3.20)
+    version: 18.3.7(@types/react@18.3.21)
   '@vitejs/plugin-react':
     specifier: ^4.4.1
     version: 4.4.1(vite@5.4.19)
@@ -875,16 +875,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.75.0:
-    resolution: {integrity: sha512-rk8KQuCdhoRkzjRVF3QxLgAfFUyS0k7+GCQjlGEpEGco+qazJ0eMH6aO1DjDjibH7/ik383nnztua3BG+lOnwg==}
+  /@tanstack/query-core@5.75.7:
+    resolution: {integrity: sha512-4BHu0qnxUHOSnTn3ow9fIoBKTelh0GY08yn1IO9cxjBTsGvnxz1ut42CHZqUE3Vl/8FAjcHsj8RNJMoXvjgHEA==}
     dev: false
 
-  /@tanstack/react-query@5.75.2(react@18.3.1):
-    resolution: {integrity: sha512-8F8VOsWUfSkCFoi62O9HSZT9jDgg28Ln8Z2dYKfRo/O2A0sgvr0uxTuNoon3PPXoDuHofv5V3elBI1M2Gh1MPg==}
+  /@tanstack/react-query@5.75.7(react@18.3.1):
+    resolution: {integrity: sha512-JYcH1g5pNjKXNQcvvnCU/PueaYg05uKBDHlWIyApspv7r5C0BM12n6ysa2QF2T+1tlPnNXOob8vr8o96Nx0GxQ==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.75.0
+      '@tanstack/query-core': 5.75.7
       react: 18.3.1
     dev: false
 
@@ -986,16 +986,16 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.3.7(@types/react@18.3.20):
+  /@types/react-dom@18.3.7(@types/react@18.3.21):
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.20
+      '@types/react': 18.3.21
     dev: true
 
-  /@types/react@18.3.20:
-    resolution: {integrity: sha512-IPaCZN7PShZK/3t6Q87pfTkRm6oLTd4vztyoj+cbHUF1g3FfVb2tFIL79uCRKEfv16AhqDMBywP2VW3KIZUvcg==}
+  /@types/react@18.3.21:
+    resolution: {integrity: sha512-gXLBtmlcRJeT09/sI4PxVwyrku6SaNUj/6cMubjE6T6XdY1fDmBL7r0nX0jbSZPU/Xr0KuwLLZh6aOYY5d91Xw==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.3
@@ -2638,8 +2638,8 @@ packages:
       react: 18.3.1
     dev: false
 
-  /react-hook-form@7.56.2(react@18.3.1):
-    resolution: {integrity: sha512-vpfuHuQMF/L6GpuQ4c3ZDo+pRYxIi40gQqsCmmfUBwm+oqvBhKhwghCuj2o00YCgSfU6bR9KC/xnQGWm3Gr08A==}
+  /react-hook-form@7.56.3(react@18.3.1):
+    resolution: {integrity: sha512-IK18V6GVbab4TAo1/cz3kqajxbDPGofdF0w7VHdCo0Nt8PrPlOZcuuDq9YYIV1BtjcX78x0XsldbQRQnQXWXmw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3063,8 +3063,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@6.1.17(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-97D7DwWanI7nN24v0D4SvbfjLE9656umNSJZkBkDIWL37aZqG/wRQ+Y9pWtXyBIM/NSfcBzHLErEsqHmJNSVUg==}
+  /styled-components@6.1.18(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Mvf3gJFzZCkhjY2Y/Fx9z1m3dxbza0uI9H1CbNZm/jSHCojzJhQ0R7bByrlFJINnMzz/gPulpoFFGymNwrsMcw==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
