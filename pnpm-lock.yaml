@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.49.4
     version: 2.49.4
   '@tanstack/react-query':
-    specifier: ^5.75.7
-    version: 5.75.7(react@18.3.1)
+    specifier: ^5.76.1
+    version: 5.76.1(react@18.3.1)
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.1.2
     version: 4.1.2(react@18.3.1)
   react-hook-form:
-    specifier: ^7.56.3
-    version: 7.56.3(react@18.3.1)
+    specifier: ^7.56.4
+    version: 7.56.4(react@18.3.1)
   react-hot-toast:
     specifier: ^2.5.2
     version: 2.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -875,16 +875,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@tanstack/query-core@5.75.7:
-    resolution: {integrity: sha512-4BHu0qnxUHOSnTn3ow9fIoBKTelh0GY08yn1IO9cxjBTsGvnxz1ut42CHZqUE3Vl/8FAjcHsj8RNJMoXvjgHEA==}
+  /@tanstack/query-core@5.76.0:
+    resolution: {integrity: sha512-FN375hb8ctzfNAlex5gHI6+WDXTNpe0nbxp/d2YJtnP+IBM6OUm7zcaoCW6T63BawGOYZBbKC0iPvr41TteNVg==}
     dev: false
 
-  /@tanstack/react-query@5.75.7(react@18.3.1):
-    resolution: {integrity: sha512-JYcH1g5pNjKXNQcvvnCU/PueaYg05uKBDHlWIyApspv7r5C0BM12n6ysa2QF2T+1tlPnNXOob8vr8o96Nx0GxQ==}
+  /@tanstack/react-query@5.76.1(react@18.3.1):
+    resolution: {integrity: sha512-YxdLZVGN4QkT5YT1HKZQWiIlcgauIXEIsMOTSjvyD5wLYK8YVvKZUPAysMqossFJJfDpJW3pFn7WNZuPOqq+fw==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.75.7
+      '@tanstack/query-core': 5.76.0
       react: 18.3.1
     dev: false
 
@@ -2638,8 +2638,8 @@ packages:
       react: 18.3.1
     dev: false
 
-  /react-hook-form@7.56.3(react@18.3.1):
-    resolution: {integrity: sha512-IK18V6GVbab4TAo1/cz3kqajxbDPGofdF0w7VHdCo0Nt8PrPlOZcuuDq9YYIV1BtjcX78x0XsldbQRQnQXWXmw==}
+  /react-hook-form@7.56.4(react@18.3.1):
+    resolution: {integrity: sha512-Rob7Ftz2vyZ/ZGsQZPaRdIefkgOSrQSPXfqBdvOPwJfoGnjwRJUs7EM7Kc1mcoDv3NOtqBzPGbcMB8CGn9CKgw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
