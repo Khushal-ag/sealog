@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@supabase/supabase-js':
-    specifier: ^2.52.0
-    version: 2.52.0
+    specifier: ^2.52.1
+    version: 2.52.1
   '@tanstack/react-query':
     specifier: ^5.83.0
     version: 5.83.0(react@18.3.1)
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^4.1.2
     version: 4.1.2(react@18.3.1)
   react-hook-form:
-    specifier: ^7.60.0
-    version: 7.60.0(react@18.3.1)
+    specifier: ^7.61.1
+    version: 7.61.1(react@18.3.1)
   react-hot-toast:
     specifier: ^2.5.2
     version: 2.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -883,8 +883,8 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/supabase-js@2.52.0:
-    resolution: {integrity: sha512-jbs3CV1f2+ge7sgBeEduboT9v/uGjF22v0yWi/5/XFn5tbM8MfWRccsMtsDwAwu24XK8H6wt2LJDiNnZLtx/bg==}
+  /@supabase/supabase-js@2.52.1:
+    resolution: {integrity: sha512-IxYljprgl381j4SuFrW4JimjTb59WJ98DqxhMvEOJjpGJWuZ7kwttIWn7E4NBnvkYwZ948zJkJ7dSI6B0oO0Xw==}
     dependencies:
       '@supabase/auth-js': 2.71.1
       '@supabase/functions-js': 2.4.5
@@ -2669,8 +2669,8 @@ packages:
       react: 18.3.1
     dev: false
 
-  /react-hook-form@7.60.0(react@18.3.1):
-    resolution: {integrity: sha512-SBrYOvMbDB7cV8ZfNpaiLcgjH/a1c7aK0lK+aNigpf4xWLO8q+o4tcvVurv3c4EOyzn/3dCsYt4GKD42VvJ/+A==}
+  /react-hook-form@7.61.1(react@18.3.1):
+    resolution: {integrity: sha512-2vbXUFDYgqEgM2RcXcAT2PwDW/80QARi+PKmHy5q2KhuKvOlG8iIYgf7eIlIANR5trW9fJbP4r5aub3a4egsew==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
